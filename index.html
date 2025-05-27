@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PalettePro - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-top: 40px;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .palette-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .palette-icon::before {
+            content: '🎨';
+            font-size: 28px;
+        }
+
+        .title {
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+
+        .content {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .icon-info { background: #3498db; }
+        .icon-storage { background: #e74c3c; }
+        .icon-share { background: #f39c12; }
+        .icon-security { background: #27ae60; }
+        .icon-contact { background: #9b59b6; }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea20, #764ba220);
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .permissions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .permission-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 15px;
+            border-left: 3px solid #667eea;
+        }
+
+        .permission-card h4 {
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            padding: 20px;
+        }
+
+        .update-date {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="palette-icon"></div>
+                <div>
+                    <h1 class="title">PalettePro</h1>
+                    <p class="subtitle">Color Picker Extension</p>
+                </div>
+            </div>
+            <div class="update-date">Last updated: May 2025</div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2><span class="icon icon-info">ℹ️</span>Privacy Policy</h2>
+                <p>PalettePro Color Picker ("we", "our", or "us") is committed to protecting your privacy. This privacy policy explains how our Chrome extension handles your information.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-storage">💾</span>Information We Collect</h2>
+                
+                <div class="highlight-box">
+                    <strong>🔒 Your Privacy First:</strong> All data is stored locally on your device. We never send information to external servers or third parties.
+                </div>
+
+                <h3>Data We Handle</h3>
+                <ul>
+                    <li><strong>Color Values:</strong> Colors you pick from webpages (stored locally)</li>
+                    <li><strong>User Preferences:</strong> Settings like default color format and auto-copy preferences</li>
+                    <li><strong>Color Collections:</strong> Colors you save to your collections</li>
+                    <li><strong>Recent Colors:</strong> Your color picking history</li>
+                </ul>
+
+                <h3>What We DON'T Collect</h3>
+                <ul>
+                    <li>❌ Names, email addresses, or personal information</li>
+                    <li>❌ Website browsing history</li>
+                    <li>❌ Personal communications</li>
+                    <li>❌ Location data</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-share">🔄</span>How We Use Information</h2>
+                <p>The extension uses your locally stored data to:</p>
+                <ul>
+                    <li>Maintain your saved color collections</li>
+                    <li>Remember your preferences and settings</li>
+                    <li>Provide quick access to recently picked colors</li>
+                    <li>Auto-copy colors in your preferred format</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-share">🚫</span>Data Sharing</h2>
+                <div class="highlight-box">
+                    <strong>Zero Data Sharing:</strong> We do not share, sell, or transfer any of your data to third parties. All information remains on your local device.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-security">🔐</span>Permissions Explained</h2>
+                <div class="permissions-grid">
+                    <div class="permission-card">
+                        <h4>🎯 Active Tab</h4>
+                        <p>Required to pick colors from the webpage you're currently viewing</p>
+                    </div>
+                    <div class="permission-card">
+                        <h4>💾 Storage</h4>
+                        <p>Used to save your colors and preferences locally on your device</p>
+                    </div>
+                    <div class="permission-card">
+                        <h4>🔔 Notifications</h4>
+                        <p>Shows confirmation messages when colors are picked and copied</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-security">🛡️</span>Data Security</h2>
+                <p>Since all data is stored locally on your device through Chrome's secure storage API, your information is protected by your browser's security measures.</p>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-info">⏰</span>Data Retention</h2>
+                <p>All data remains on your device until you:</p>
+                <ul>
+                    <li>Manually delete colors from your collections</li>
+                    <li>Clear your browser data</li>
+                    <li>Uninstall the extension</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-contact">📧</span>Contact Us</h2>
+                <p>If you have any questions about this privacy policy, please contact us at <a href="mailto:almohamza2@gmail.com">almohamza2@gmail.com</a></p>
+            </div>
+
+            <div class="section">
+                <h2><span class="icon icon-info">📝</span>Changes to This Policy</h2>
+                <p>We may update this privacy policy from time to time. We will notify users of any material changes by updating the "Last updated" date.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>This privacy policy is effective as of the date listed above and applies to all users of the PalettePro Color Picker extension.</p>
+            <br>
+            <p>Made with 💜 for designers and developers</p>
+        </div>
+    </div>
+</body>
+</html>
